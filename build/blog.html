@@ -11,27 +11,35 @@
     <script src="/assets/scripts/bundle.js" defer></script>
   </head>
   <body>
-    <h1>Блог</h1>
-    <ul>
-      <li>
-        <h2>Заголовок статьи</h2>
-        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
-      </li>
-      <li>
-        <h2>Ещё статья</h2>
-        <p>Далеко-далеко за словесными горами в стране.</p>
-      </li>
-      <li>
-        <h2>Последняя статья</h2>
-        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Курсивных то осталось за.</p>
-      </li>
-    </ul>
-    <h2>Меню</h2>
-    <ul class="menu">
-      <li><a href="/index.html">Главная</a></li>
-      <li><a href="/about.html">Обо мне</a></li>
-      <li><a href="my-works.html">Мои работы</a></li>
-      <li><a href="blog.html">Блог</a></li>
-    </ul>
+    <section style="height: 300px; background-color: blue; display: flex; justify-content: center; align-items: center; font-size: 60px;">TOP SECTION</section>
+    <section class="blog-content blog">
+      <div class="blog-content__left">
+        <aside class="blog__article-titles" id="blog__article-titles">
+          <ul class="blog__article-list" id="blog__article-list">
+            <li class="blog__article-title" id="0"><a class="blog__article-link" href="#Article1">Article1</a></li>
+            <li class="blog__article-title" id="1"><a class="blog__article-link" href="#Article2">Article2</a></li>
+            <li class="blog__article-title" id="2"><a class="blog__article-link" href="#Article3">Article3</a></li>
+          </ul>
+          <div class="blog__article-adaptive-btn" id="blog__article-adaptive-btn"></div>
+        </aside>
+      </div>
+      <div class="blog-content__right"><a name="Article1"></a>
+        <div class="blog__article" data-idtitle="0">
+          <div class="blog__title">Article1</div>
+          <div class="blog__date">12.07.2017</div>
+          <div class="blog__text simple-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero optio sint a saepe repellat! Sapiente alias quam amet assumenda obcaecati, quibusdam nisi dignissimos cum reiciendis ab sed doloribus nam eaque est impedit molestiae. In fugit sunt quia tenetur unde blanditiis quae voluptatum possimus, consectetur, similique debitis eos fugiat eligendi, saepe, dolorem placeat veniam. Iusto, illo dicta ipsam blanditiis eum molestias delectus quia veritatis. Voluptas facere nobis, neque temporibus, officia modi veritatis id deleniti mollitia soluta necessitatibus incidunt perspiciatis fugiat, a eum similique, nulla totam quasi dicta. Alias dolores cupiditate laborum voluptatem! Eius, minima placeat quam laborum repudiandae maxime nisi deserunt.</div>
+        </div><a name="Article2"></a>
+        <div class="blog__article" data-idtitle="1">
+          <div class="blog__title">Article2</div>
+          <div class="blog__date">12.07.2017</div>
+          <div class="blog__text simple-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero optio sint a saepe repellat! Sapiente alias quam amet assumenda obcaecati, quibusdam nisi dignissimos cum reiciendis ab sed doloribus nam eaque est impedit molestiae. In fugit sunt quia tenetur unde blanditiis quae voluptatum possimus, consectetur, similique debitis eos fugiat eligendi, saepe, dolorem placeat veniam. Iusto, illo dicta ipsam blanditiis eum molestias delectus quia veritatis. Voluptas facere nobis, neque temporibus, officia modi veritatis id deleniti mollitia soluta necessitatibus incidunt perspiciatis fugiat, a eum similique, nulla totam quasi dicta. Alias dolores cupiditate laborum voluptatem! Eius, minima placeat quam laborum repudiandae maxime nisi deserunt.</div>
+        </div><a name="Article3"></a>
+        <div class="blog__article" data-idtitle="2">
+          <div class="blog__title">Article3</div>
+          <div class="blog__date">12.07.2017</div>
+          <div class="blog__text simple-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero optio sint a saepe repellat! Sapiente alias quam amet assumenda obcaecati, quibusdam nisi dignissimos cum reiciendis ab sed doloribus nam eaque est impedit molestiae. In fugit sunt quia tenetur unde blanditiis quae voluptatum possimus, consectetur, similique debitis eos fugiat eligendi, saepe, dolorem placeat veniam. Iusto, illo dicta ipsam blanditiis eum molestias delectus quia veritatis. Voluptas facere nobis, neque temporibus, officia modi veritatis id deleniti mollitia soluta necessitatibus incidunt perspiciatis fugiat, a eum similique, nulla totam quasi dicta. Alias dolores cupiditate laborum voluptatem! Eius, minima placeat quam laborum repudiandae maxime nisi deserunt.</div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,7 +1,14 @@
 body{
-    margin: 100px;
+    padding: 100px;
+    margin: 0;
     background: #ccc
 }
 @import 'common/menu';
 @import 'common/technologies';
 @import 'common/slider';
+
+
+@import 'common/blog';
+@import 'common/blog-content';
+
+@import 'common/flipper';

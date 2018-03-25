@@ -4,10 +4,14 @@ block variables
     - var title = 'Добро пожаловать'
 
 block content
-    h1 Главная
+
     form
-        label(for="email") email
-        input(name="email" id="email")
-        label(for="password") password
-        input(name="password" id="password")
-        button Войти
+        a#flipper-rotate.flipper-rotate rotate
+
+        .flipper#flipper
+
+            .flipper__front
+                | front
+
+            .flipper__back
+                | back
